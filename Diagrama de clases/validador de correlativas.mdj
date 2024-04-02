@@ -830,6 +830,7 @@
 									"model": {
 										"$ref": "AAAAAAGOliNW69YFoTA="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 722,
 									"top": 136,
@@ -1104,6 +1105,7 @@
 									"model": {
 										"$ref": "AAAAAAGOliRGJ9vjEVU="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 599,
 									"top": 234,
@@ -1376,6 +1378,7 @@
 									"model": {
 										"$ref": "AAAAAAGOliTFgOfC9nQ="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 457,
 									"top": 384,
@@ -1646,6 +1649,7 @@
 									"model": {
 										"$ref": "AAAAAAGOliTcfOkfa60="
 									},
+									"visible": false,
 									"font": "Arial;13;0",
 									"left": 555,
 									"top": 382,
@@ -1847,19 +1851,6 @@
 							"width": 129.20263671875,
 							"height": 25,
 							"text": "correlativas"
-						},
-						{
-							"_type": "UMLTextView",
-							"_id": "AAAAAAGOli+0OxNyRKI=",
-							"_parent": {
-								"$ref": "AAAAAAFF+qBtyKM79qY="
-							},
-							"font": "Arial;13;0",
-							"left": 680,
-							"top": 144,
-							"width": 100,
-							"height": 25,
-							"text": "materia"
 						}
 					]
 				},
@@ -1923,7 +1914,6 @@
 								"_parent": {
 									"$ref": "AAAAAAGOliNW69YEZpA="
 								},
-								"name": "1",
 								"reference": {
 									"$ref": "AAAAAAGOliAHTtV1eY0="
 								}
@@ -1953,7 +1943,6 @@
 								"_parent": {
 									"$ref": "AAAAAAGOliRGJ9vi1bA="
 								},
-								"name": "*",
 								"reference": {
 									"$ref": "AAAAAAGOliAHTtV1eY0="
 								}
@@ -2017,7 +2006,8 @@
 									"_parent": {
 										"$ref": "AAAAAAGOm6Sat8jRDt0="
 									},
-									"name": "Materia materiasAprobadas"
+									"name": "Materia materiasAprobadas",
+									"type": ""
 								}
 							]
 						}
@@ -2044,7 +2034,6 @@
 								"_parent": {
 									"$ref": "AAAAAAGOliTFgOfBp+M="
 								},
-								"name": "*",
 								"reference": {
 									"$ref": "AAAAAAGOliCJrNWtbPM="
 								}
@@ -2073,7 +2062,6 @@
 								"_parent": {
 									"$ref": "AAAAAAGOliTcfOkeF4U="
 								},
-								"name": "*",
 								"reference": {
 									"$ref": "AAAAAAGOliCJrNWtbPM="
 								}
