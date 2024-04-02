@@ -15,7 +15,7 @@ public class Alumno {
         this.legajo = legajo;
         this.materiasAprobadas = materiasAprobadas;
     }
-    public boolean cumpleCorrelativas(Materia unaMateria){
+    public boolean puedeCursar(Materia unaMateria){
         return unaMateria.cumpleCorrelativas(this.materiasAprobadas);
     }
 

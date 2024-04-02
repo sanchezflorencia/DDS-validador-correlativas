@@ -13,11 +13,9 @@ public class Materia {
     }
 
     public boolean cumpleCorrelativas(List<Materia> materiasAprobadas){
-        for (Materia materia : materiasAprobadas){
-            if(this.materiasCorrelativas.contains(materia)){
-                return true;
-            }
-        } return false;
+        if(this.materiasCorrelativas.isEmpty()){
+            return true;
+        }else return materiasAprobadas.containsAll(this.materiasCorrelativas);
     }
 
     public void agregarMateriaCorrelativa(Materia unaMateria){

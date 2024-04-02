@@ -14,7 +14,7 @@ public class Inscripcion {
     }
 
     public boolean aprobada(){
-       return this.materiasAInscribir.stream().allMatch(materia -> this.alumno.cumpleCorrelativas(materia));
+       return this.materiasAInscribir.stream().allMatch(materia -> this.alumno.puedeCursar(materia));
     }
 
 }
